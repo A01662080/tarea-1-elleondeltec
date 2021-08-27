@@ -1,6 +1,14 @@
 def main():
     # escribe tu código abajo de esta línea
-    pass
+    # Aquí estoy pidiendo los datos iniciales
+    x1 = float(input("Dame x1: "))
+    y1 = float(input("Dame y1: "))
+    x2 = float(input("Dame x2: "))
+    y2 = float(input("Dame y2: "))
+    # Aquí calculo la pendiente que existe entre el punto 1 y el punto 2
+    m = (y2 - y1) / (x2 - x1)
+    # Aquí muestro el resultado final al usuario
+    print("Pendiente:", m)
 
 
 if __name__ == '__main__':
